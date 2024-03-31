@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Top Navbar -->
+    <div class="top-navbar">
+        <p>Welcome to our Store</p>
+        <div class="icons">
+            <a href="login.html"><i class="fa-solid fa-right-to-bracket" width="18px">Login</i></a>
+            <a href="register.html"><i class="fa-solid fa-user">Register</i></a>
+        </div>
+    </div>
+    <!-- End Top Navbar -->
+
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" id="logo"><span id="span1">E</span>lectronic <span>Shop</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars fa-xl" style="color: #FFD43B;" width="30px"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67, 0, 86);">
+                                <li><a class="dropdown-item" href="#">Celphones</a></li>
+                                <li><a class="dropdown-item" href="#">Refrigerator</a></li>
+                                <li><a class="dropdown-item" href="#">Music</a></li>
+                                <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                                <li><a class="dropdown-item" href="#">Samrt TVs</a></li>
+                                <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" id="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+
+
+    <!-- Home Content -->
+    <section class="home">
+        <div class="content">
+            <h1> <span>Electronic Products</span>
+                <br>
+                Up To <span id="span2">50%</span> OFF
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, porro.
+                <br>Lorem ipsum, dolor sit amet consectetur adipisicing.
+            </p>
+            <div class="btn"><button>Shop Now</button></div>
+        </div>
+        <div class="imga">
+            <img src="./images/banner_1.png" alt="">
+        </div>
+    </section>
+    <!-- End Home Content -->
+
+
+
+<!-- Products Cards -->
+    <div class="container" id="products-cards">
+        <h1 class="text-center">PRODUCTS</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/celphones/motorola_G23_White.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Motorola G23 128GB White</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$383 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/music/headphones_Suono.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Suono Bluetooth In Ear Headphones</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$50 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/notebooks/notebook_ASUS_Vivobook.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Notebook ASUS Vivobook 15.6”</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$1182 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/music/portable-Speaker-Philips-TAX3305-77.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Suono Wireless Portable Speaker</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$359 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/tv's/smart_TV'43_LED.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart TV LED 43” FHD Philips</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$430 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/celphones/motorola_G32_Pink.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Motorola G23 128GB Pink</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$383 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/notebooks/notebook_HP.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Notebook HP 14” <br> 14-DQ2543LA</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$1055 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img class="img_pro" src="./images/led light/moon_RGB_Suono_candleholder.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Suono RGB Moon Candleholder</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <h2>$25 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- End Products Cards -->
+
+
+
+<!-- Others Cards -->
+<div class="container" id="other-cards">
+    <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+                <div class="card-img-overlay">
+                    <h3>Best Cellphones</h3>
+                    <h5>Deal of the Month</h5>
+                    <p>Up To 50% OFF</p>
+                    <button id="shopnow">Shop Now</button>
+                </div>
+                <div class="ima-ot">
+                    <img src="./images/celphones/tcl_4OSE.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+                <div class="card-img-overlay">
+                    <h3>Best Loudspeaker</h3>
+                    <h5>Deal of the Month</h5>
+                    <p>Up To 50% OFF</p>
+                    <button id="shopnow">Shop Now</button>
+                </div>
+                <div class="ima-ot">
+                    <img src="./images/music/stromberg-Burst-Portable-Bluetooth-Speaker.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Others Cards -->
+
+
+
+<!-- Banner -->
+<section class="banner">
+    <div class="content">
+        <h1> <span>Electronic Kitchen Appliance</span>
+            <br>
+            Up To <span id="span2">30%</span> OFF
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, porro.
+            <br>Lorem ipsum, dolor sit amet consectetur adipisicing.
+        </p>
+        <div class="btn"><button>Shop Now</button></div>
+    </div>
+    <div class="imga">
+        <img src="./images/banner_2.png" alt="">
+    </div>
+</section>
+<!-- End Banner -->
+
+
+
+<!-- Products Cards #2 -->
+<div class="container" id="products-cards">
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/refrigerator/fridge_1.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Refrigerator with freezer Koh-i-noor</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$670 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/smartlife_2-in-1_Espresso_Coffee_Maker.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Smartlife 2-in-1 Espresso Coffee Maker</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$180 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/fryer.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Oster Diamondforce Air Fryer</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$250 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/domec_ B070_Electric_Oven.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Domec B070 Electric Oven</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$600 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;"></div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/mixer.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Smartlife 800W Mixer SL-SM5010FPN</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$85 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/lavavajillas_Samsung_DW60M6050FS_14C.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Dishwasher Samsung DW60M6050FS 14C</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$570 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/tostadora_Atma_TO20BP.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">ATMA Multifunction Toaster Black</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$25 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/ultracomb_WM-2900_Waffle_Iron.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Ultracomb WM-2900 Waffle Iron</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$29 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;"></div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/electric_kettle_with_matte_cut_Kanji_Home.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Electric kettle with matte cut Kanji Home</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$70 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/microwave_BGH_23Lts_Digital_Eco.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Microwave BGH 23Lts Digital Eco</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$295 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/refrigerator/refrigerator_No_Frost_Drean_424Lts_Steel.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Refrigerator No Frost Drean 424Lts Steel</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$810 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+                <img class="img_pro" src="./images/home Appliances/oster_SM3711_750W_Planetary_Mixer.png" alt="">
+                <div class="card-body">
+                    <h3 class="text-center">Oster SM3711 750W Planetary Mixer</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <h2>$273 USD<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- End Products Cards #2 -->
+
+
+
+<!-- Others Cards #2 -->
+<div class="container" id="other">
+    <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./images/c ban/c1_oven.png" alt="">
+                <div class="card-img-overlay">
+                    <h3>Kitchen Ovens</h3>
+                    <p>Latest products with 30% discount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./images/c ban/c2_blender.png" alt="">
+                <div class="card-img-overlay">
+                    <h3>The Best Blenders</h3>
+                    <p>Latest products with 30% discount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./images/c ban/c3_kitchen.png" alt="">
+                <div class="card-img-overlay">
+                    <h3>Best Selection of Refrigerators</h3>
+                    <p>Latest products with 30% discount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Others Cards #2 -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
